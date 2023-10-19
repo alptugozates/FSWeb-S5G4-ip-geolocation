@@ -136,9 +136,21 @@ const saatDilimi = document.createElement("p");
 saatDilimi.textContent = `Saat Dilimi: ${item.saatdilimi}`;
 divCardİnfo.append(saatDilimi);
 
+const zipkod = document.createElement("p");
+zipkod.textContent = `Zip Kod: ${item.zip}`;
+divCardİnfo.append(zipkod);
+
 const paraBirimi = document.createElement("p");
 paraBirimi.textContent = `Para Birimi: ${item.parabirimi}`;
 divCardİnfo.append(paraBirimi);
+
+const asKod = document.createElement("p");
+asKod.textContent = `as: ${item.as}`;
+divCardİnfo.append(asKod);
+
+const org = document.createElement("p");
+org.textContent = `Organizasyon: ${item.organizasyon}`;
+divCardİnfo.append(org);
 
 const isp = document.createElement("p");
 isp.textContent = `ISP: ${item.isp}`;
